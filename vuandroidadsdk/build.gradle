@@ -28,5 +28,9 @@ dependencies {
     })
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:26.+'
+    // 网络请求框架
     compile 'com.squareup.okhttp3:okhttp:3.0.1'
+
+    // 异步图片加载框架
+    compile 'com.nostra13.universalimageloader:universal-image-loader:1.9.5'
 }
